@@ -27,7 +27,8 @@ For every frame in the video, it goes through the following pipeline and extract
 7. Merge the line into the original image
 ![](https://i.imgur.com/giWK2b6.png)
 
-
+## Video
+You can find the output video [here](https://youtu.be/y_bah3mGO3c)
 
 ## Shortcomings 
 ### Hard-coded tuning
@@ -41,4 +42,4 @@ The pipeline assumed that both left and right lane are straight line. So the mod
 ### Tuning can be optimized
 During tuning, the parameters are manually tested against visual comparison, i.e. the result is the fairly good one but I have no clue if it can still improve. A test score should be invented in order to quantify the tuning result and find the optimal parameters.
 ### Video formatter
-Although the hard-coded tuning process is aimed at only the given short clip, I believe with the right transformer software, this pipeline can be more generally used on many other video clips. 
+Although the hard-coded tuning process is aimed at only the given short clip, I believe with the right video transforming software, this pipeline can be more generally used on many other video clips. 
