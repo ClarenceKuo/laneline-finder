@@ -30,6 +30,8 @@ For every frame in the video, it goes through the following pipeline and extract
 ## Video
 You can find the output video [here](https://youtu.be/y_bah3mGO3c)
 
+Check another repo of mine to learn more on [Advanced Lane Tracking](https://github.com/ClarenceKuo/advanced-lane-tracking)
+
 ## Shortcomings 
 ### Hard-coded tuning
 Some part of the pipeline is tuned and hard-coded according to the given video clips. There can be a high risk that some other video clip might not be suitable for this approach.
